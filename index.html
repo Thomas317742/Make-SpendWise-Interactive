@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>SpendWise</h1>
+        <p>Manage and monitor your spending.</p>
+
+        <h2>Monthly Budget</h2>
+        <p id="budget">KSh 30,000</p>
+
+        <h2>Total Expenses</h2>
+<p id="expenses">KSh 0</p>
+
+<label for="expense">Enter Expense:</label>
+<input type="number" id="expense" placeholder="Enter amount">
+
+<button id="addExpenseButton">Add Expense</button>
+
+<p id="message">You are within your budget.</p>
+
+<h3>Expense Records</h3>
+<ul id="expense-list"></ul>
+
+        <h2>Remaining Balance</h2>
+        <p id="balance">KSh 30,000</p>
+
+        <button id="addExpenseButton">Add Expense</button>
+    </div>
+
+  Perfect! ✅ Now we need to **connect `script.js` to your SpendWise webpage**.
+
+## STEP 5 — Open `index.html`
+
+1. Look at the **left Explorer panel** in VS Code.
+2. Click **`index.html`**.
+3. Scroll all the way to the **bottom** of the file.
+
+Look for:
+
+```html
+</body>
+</html>
+```
+
+### STEP 6 — Add the JavaScript link
+
+Put this line **directly above** `</body>`:
+
+```html
+<script src="script.js"></script>
+```
+
+So the bottom of your `index.html` should look like:
+
+```html
+<script src="script.js"></script>
+</body>
+</html>
+```
